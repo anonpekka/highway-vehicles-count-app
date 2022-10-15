@@ -1,0 +1,109 @@
+/* fonts */
+
+@font-face {
+    font-family: direction;
+    src: url("fonts/Direction.ttf");
+}
+@font-face {
+    font-family: dharma;
+    src: url("fonts/Dharma\ Punk.ttf");
+}
+
+
+
+body {
+    margin: 10px;
+    text-align: center;
+    background-image: url("images/road.webp");
+    background-size: cover;
+    width: 200vh;
+    height: 100vh;
+}
+
+/* Here div are start */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.heading {
+    font-size: 2.3rem;
+    font-family: direction;
+    text-indent: 10px;
+    text-shadow: 0px 0px 5px white;    
+}
+
+.heading:hover {
+    text-decoration: underline;
+}
+
+.count {
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0px 0px 10px white; 
+}
+.count:hover {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+/* buttons are here! */
+
+#veh-btn {
+    background-color: #d90429;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 1.9rem;
+    font-family: dharma;
+    margin-bottom: 20px;
+}
+
+#veh-btn:active {
+    background-color: #ef233c;
+
+}
+
+#save-btn {
+    background-color: #008000;
+    color: black;
+    padding: 10px 38px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 1.9rem;
+    font-family: dharma;
+    margin-bottom: 20px;
+
+}
+
+#save-btn:active {
+    background-color: #38b000;
+}
+
+#save-el {
+    font-family: dharma;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+#reset-btn {
+    background-color: #ffbd00;
+    color: black;
+    padding: 10px 38px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 1.9rem;
+    font-family: dharma;
+}
+
+#reset-btn:active {
+    background-color: #ff8500;
+}
